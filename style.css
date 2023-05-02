@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "SamsungOne";
+        src: url("/fonts/SamsungOne-400.ttf");
+        src: url("/fonts/SamsungOne-700.ttf");
+        src: url("/fonts/SamsungSharpSans-Bold.ttf");
+    }
+    *
+    {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+        nav {
+            
+            text-align: right;
+            padding: 0px;
+            width: 100%;
+            position: absolute;
+            top: 8px;
+            left:0px;
+          }
+    
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: inline-block;
+        }
+    
+        nav li {
+            display: inline-block;
+            margin-right: 60px;
+        }
+    
+        nav a {
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            font-family: "SamsungOne";
+        }
+    
+        nav a:hover {
+            background-color: #141414;
+            color: #fffeec;
+        }
+        header {
+        margin: 0;
+        text-align: left;
+            padding: 0px 0px;
+            width: 100%;
+            position: absolute;
+            top: 8px;
+            left:0px;
+            justify-content: space-between;
+        }
+        
+        .header-container {
+        width: 100vw;
+        height: 100vh;
+         display: flex;
+          align-items: center;
+         justify-content: center;
+          margin-bottom: 150px;
+          color: #fffeec;
+          font-size: 5.3vmin;
+          font-family: "SamsungOne";
+        }
+    .line {
+    width: 150px;
+    height: 4px;
+    background: #141414;
+        margin: 10px auto;
+        border-radius: 5px;	
+    }
+        
+        section {
+        width: 80%;
+        margin: 80px auto; 
+        }
+        
+        
+        .title {
+        text-align: center;
+        font-size: 4vmin;
+        font-family: "SamsungOne";
+        }
+        
+        .paragraph {
+        font-family: "SamsungOne";
+        font-size: 3vmin;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        align-items: center;
+        
+    
+        }
+        
+        .img_one {
+        float: right;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        
+        }
+        
+        .title_one {
+        text-align: center;
+        font-size: 4vmin;
+        font-family: "SamsungOne";
+        
+        
+        }
+        
+        
+        .info {
+        text-align: center;
+        font-size: 3vmin;
+        font-family: "SamsungOne";
+        display: block;
+        }
+        .img_two {
+        float: right;
+    width: 30vw;
+    height: auto;
+    display: block;
+        }
+        
+        
+        
+        .info_two {
+        text-align: center;
+        font-size: 3vmin;
+        font-family: "SamsungOne";
+    display: block;
+        }
+        
+           
+        .img_three {
+        float: left;
+    width: 30vw;
+    height: auto;
+    display: block;
+        }
+        
+        .img_four {
+        float: right;
+        width: 30vw;
+        }
+        
+        .img_five {
+        float: left;
+        width: 25vw;
+        }
+        
+        .info_three {
+        float: right;
+        font-family: "SamsungOne";
+        font-size: 3vmin;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        align-items: center;
+        }
+         
+        
+        .img_six {
+        float: right;
+        width: 30vw;
+        }
+        
+        
+        .info_four {
+        float: left;
+        font-family: 'SamsungOne';
+        font-size: 3vmin;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        align-items: center;
+        }
+        
+        .img_seven {
+        float: left;
+        width: 25vw;
+        display: block;
+        }
+        
+    .info_five {
+    float: right;
+        font-family: 'SamsungOne';
+        font-size: 3vmin;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        align-items: top;
+        margin-bottom:50px;
+        margin-right: 100px;
+        display: block;
+    }
+        
+        
+        dt {
+        font-family: "SamsungOne";
+        font-size: 3vmin;
+    line-height: 40px;
+    align-items: left;
+        }
+        
+        dd {
+        font-family: 'SamsungOne';
+        font-size: 2vmin;
+    line-height: 40px;
+    align-items: left;
+        }
+        .img_eight {
+        float: right;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        }
+        .h3 {
+        font-family: 'SamsungOne';
+        }
+        .img-margin{
+            margin: 0 auto;
+            display: flex;
+            width: 1520px;
+            margin-top: -10px;
+        }
